@@ -9,7 +9,7 @@ const Campground = require('../models/campground');
 main().catch(err => console.log(err));
 
 async function main() {
-    await mongoose.connect('mongodb://localhost:27017/yelp-camp');
+    await mongoose.connect('mongodb+srv://abood:abood@cluster0.kgyc2mx.mongodb.net/?retryWrites=true&w=majority');
     console.log("database is connected!!!")
 }
 
