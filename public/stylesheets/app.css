@@ -1,0 +1,15 @@
+/* for map */
+
+/* #cluster-map {
+    width: 100%;
+    height: 500px;
+} */
+
+#map {
+    width: 100%;
+    height: 300px;
+}
+
+/* .navbar-nav ml-auto {
+    margin-left: auto;
+} */
