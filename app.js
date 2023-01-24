@@ -39,7 +39,8 @@ async function main() {
     console.log("database is connected!!!")
 }
 
-app.engine('ejs', ejsMate)
+
+app.engine('ejs', ejsMate);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'))
 
